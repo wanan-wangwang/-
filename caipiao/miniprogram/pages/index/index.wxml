@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="box">
+  <view class='title'>产生一注彩票号码</view>
+  <view>电科19-1孙政宇201923010124</view>
+  <view>产生的号码：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <button type='primary' bindtap='newRand'>重新生成</button>
+  <view>吾心信其可行，则移山填海之难，终有成功之日</view>
+</view>
